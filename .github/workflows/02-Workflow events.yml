@@ -1,0 +1,15 @@
+name: Workflow Events
+
+on: 
+ push
+
+jobs:
+  echo-:
+   runs-on: ubuntu-latest
+   steps:
+    - run: echo "Show the trigger"
+
+
+
+
+
